@@ -1,0 +1,31 @@
+/* make the num-display element a circle
+   make its background color dark pink
+   make its text white
+   center its text vertically and horizontally
+   give it a white border and text
+   position it in the top left corner of the card
+*/
+.NumDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #ff69b4;
+  color: #fff;
+  font-size: 19px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+/* position the close-icon element in the top-right of the card */
+.CloseIcon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
